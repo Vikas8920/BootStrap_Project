@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.mov{
+    transform: translateX(250px);
+}
+.moves h1{
+    transform: translateY(-200px);
+}
+.moves p{
+    transform: translateY(-200px);
+}
+.font{
+    font-size: 30px!important;
+    font-weight: bold;
+    font-family: 'Lobster', sans-serif;
+}
+.fonts{
+    font-size: 18px;
+}
+.h1{
+    background-color: rgb(246, 246, 246);
+}
+.h1 h1{
+    text-align: center;
+}
+.para{
+    width: 1000px;
+    font-size: 33px;
+    transform: translateX(180px);
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Caveat', cursive;
+}
+.color{
+    background-color: rgb(246, 246, 246);
+}
+.box{
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.paras{
+    text-align: justify;
+}
+.head1{
+    text-align: center;
+    color: brown;
+}
+.images img:hover{
+    opacity: 0.8;
+    transform: scale(1.8);
+    transition: 500ms;
+}
+.image img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.fontss{
+    font-size: 70px;
+}
+.col-3 .text-black{
+    color: gray!important;
+    padding: 0;
+    margin-left: 18px;
+    padding: 3px 0;
+}
+.boxes{
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    gap: 10px;
+    overflow: hidden;
+}
+.col-4 .text-black{
+    color: gray!important;
+    padding: 0;
+    margin-left: 18px;
+    padding: 3px 0;
+}
+.borders{
+    border-bottom: 1px solid rgb(218, 217, 217);
+    border-top: 1px solid rgb(218, 217, 217);
+}
+.links span .text-black{
+    color: gray!important;
+}
+.links span{
+    color: gray!important;
+}
